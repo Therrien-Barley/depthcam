@@ -8,7 +8,7 @@
     },
     "contributors": [
         { "name": "Troy Conrad Therrien", "email": "<troyth@gmail.com>" },
-        { "name": "Daniel Taeyoung Lee", "email": "<provolot@gmail.com>" },
+        { "name": "Daniel Taeyoung Lee", "email": "<provolot@gmail.com>" }
     ],
     "dependencies": {
         "kinect": "*"
