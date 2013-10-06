@@ -1,0 +1,20 @@
+{
+    "name": "depthcam",
+    "description": "Use a Kinect to create images based on depth ",
+    "version": "0.0.1",
+    "author": {
+        "name": "Therrien-Barley <info@th-ey.co>",
+        "email": "info@th-ey.co"
+    },
+    "contributors": [
+        { "name": "Troy Conrad Therrien", "email": "<troyth@gmail.com>" },
+        { "name": "Daniel Taeyoung Lee", "email": "<provolot@gmail.com>" },
+    ],
+    "dependencies": {
+        "kinect": "*"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "main": "lib/depthcam"
+}
