@@ -7,5 +7,9 @@ var dc = new depthcam();
 dc.start();
 
 dc.on("depth", function( filepath ){
-	console.log('image written to: ' + filepath );
+	console.log('depth written to: ' + filepath + '\n' );
+});
+
+dc.on("rgb", function( filepath ){
+	console.log('rgb written to: ' + filepath + '\n' );
 });
